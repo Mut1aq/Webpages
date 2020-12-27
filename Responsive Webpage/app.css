@@ -1,0 +1,183 @@
+body {
+  margin: 0px;
+}
+.navBar {
+  background-color: lightseagreen;
+  overflow: hidden;
+}
+.navBar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.navBar h1 {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+#company-name {
+  float: left;
+  font-size: 30px;
+  color: white;
+  margin: 0 30px;
+}
+
+#first {
+  display: flex;
+  flex-direction: row;
+}
+.container-1 {
+  width: 60%;
+  margin-left: 45px;
+}
+.container-1 h2 {
+  color: lightseagreen;
+  font-size: 40px;
+}
+#O-S-P {
+  font-size: 25px;
+  text-align: justify;
+}
+.container-2 h3 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+.container-2 {
+  width: 25%;
+  background-color: lightseagreen;
+  float: right;
+  margin: 10px 30px;
+  border-radius: 8px;
+}
+input[type="text"],
+input[type="password"] {
+  width: 90%;
+  padding: 6px 3px;
+  margin: 8px 20px;
+  display: block;
+  border: none;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+.container-2 label {
+  margin: 30px;
+  color: #f2f2f2;
+}
+
+button {
+  background-color: #f2f2f2;
+  color: lightseagreen;
+  padding: 10px 25px;
+  margin: 8px 10px;
+  float: right;
+  border: none;
+  border-radius: 8px;
+}
+#service {
+  text-align: center;
+  background-color: rgb(242, 242, 242);
+}
+.container-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(242, 242, 242);
+  margin: 25px 0 0 0;
+}
+img {
+  width: 290px;
+}
+.column {
+  float: left;
+  width: 290px;
+  padding: 85px;
+}
+.num-of-sevices {
+  color: lightseagreen;
+  text-align: center;
+  font-size: 25px;
+}
+footer {
+  color: white;
+  background-color: rgb(38, 38, 38);
+  display: flex;
+  padding: 50px;
+  font-size: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+span h6 {
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color: rgb(38, 38, 38);
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 19px;
+}
+@media (max-width: 900px) and (min-width: 0px) {
+  #first {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-2 {
+    width: 100%;
+    background-color: lightseagreen;
+    margin: 10px 30px;
+    border-radius: 8px;
+  }
+  .container-1 {
+    width: 90%;
+    margin-left: 45px;
+  }
+}
+@media (max-width: 1800px) and (min-width: 900px) {
+  #O-S-P {
+    font-size: 15px;
+    text-align: left;
+  }
+  #first {
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+  }
+  .container-2 {
+    width: 100%;
+    background-color: lightseagreen;
+    margin: 10px 30px;
+    border-radius: 8px;
+  }
+
+  .container-1 {
+    width: 90%;
+    margin-left: 45px;
+  }
+  .container-1 h2 {
+    color: lightseagreen;
+    font-size: 20px;
+  }
+  img {
+    width: 200px;
+  }
+  .column {
+    float: left;
+    width: 200px;
+    padding: 10px;
+  }
+}
