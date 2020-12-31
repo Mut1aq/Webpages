@@ -1,0 +1,72 @@
+.container-1{
+    background-color: pink;
+    padding: 15px;
+    margin: auto;
+    width: 75%;
+}
+
+.flex-box-container-1{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flex-box-container-1 div{
+    display: flex;
+    padding: 5px;
+}
+
+
+
+
+.container-2, .container-3, .container-4, .container-5 {
+    background-color: pink;
+    width: 75%;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+.flex-box-container-2,.flex-blackjack-row-2,
+.flex-blackjack-row-1, .flex-box-rps,
+.flex-box-pick-color, .flex-blackjack-row-3{
+    display: flex; /* activates the flex items*/
+    flex-wrap: wrap; /*makes the images appear below*/
+    justify-content: space-evenly; /* makes images space in a pretty way*/
+    padding: 10px; /* moves the element away*/
+}
+.flex-box-container-2 img{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 80%;
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px blue;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+    background: url('https://image.freepik.com/free-vector/poker-table-background-green-color_47243-1068.jpg') center;
+    color: #ffffff;
+}
+.flex-blackjack-row-1 div {
+    padding: 10px;
+    flex: 1;
+    text-align: center;
+    height: 500px;
+}
+.flex-blackjack-row-1 img {
+    width: 22%;
+    padding: 10px;
+}
+.flex-blackjack-row-2 button {
+    padding: 10px;
+}
+.flex-blackjack-row-2 div {
+    padding: 5px;
+    border: 1px solid black;
+}
+table, th, td {
+    padding: 5px;
+    border: 1px solid black;
+
+}
